@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Search movies</title>
+  </head>
+  <body>
+    <header>
+      <section id="search-bar">
+        <input
+          name="search-movie-title"
+          id="search-movie-title"
+          placeholder="Enter movie name..."
+          value=""
+        />
+      </section>
+      <section id="nav-page">
+        <a id="go-to-favorite-movies" href="./src/favoriteMovies.html"
+          >Favorite Movies</a
+        >
+      </section>
+    </header>
+    <main id="search-result-container">
+      <div id="show-error">
+        <span style="color: #fde047">Search!</span> Movie Awaits.
+      </div>
+    </main>
+    <script src="src/index.js"></script>
+  </body>
+</html>
