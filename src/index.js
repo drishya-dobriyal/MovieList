@@ -56,7 +56,7 @@ function displayErrorMessage(error) {
 async function searchMovie() {
   const movieName = document.getElementById("search-movie-title").value;
   const response = await fetch(
-    "http://www.omdbapi.com/?apikey=7ace29ee&s=" + movieName,
+    "https://www.omdbapi.com/?apikey=7ace29ee&s=" + movieName,
     {
       method: "GET",
     }

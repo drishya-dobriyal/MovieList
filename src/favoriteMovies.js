@@ -41,7 +41,7 @@ async function createList() {
   document.getElementById("no-data-available").style.display = "none";
   for (let id of movieList) {
     /* Fetch Movie details */
-    const url = "http://www.omdbapi.com/?apikey=7ace29ee&i=" + id;
+    const url = "https://www.omdbapi.com/?apikey=7ace29ee&i=" + id;
     const response = await fetch(url, {
       method: "GET",
     });

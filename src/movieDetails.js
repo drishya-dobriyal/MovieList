@@ -3,7 +3,7 @@ async function displayDetails() {
   const pageUrl = window.location.href;
   const params = pageUrl.split("?")[1];
   const movieId = params.split("=")[1];
-  const url = "http://www.omdbapi.com/?apikey=7ace29ee&i=" + movieId;
+  const url = "https://www.omdbapi.com/?apikey=7ace29ee&i=" + movieId;
 
   const response = await fetch(url, {
     method: "GET",
